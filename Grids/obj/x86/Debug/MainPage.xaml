@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Grids.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Grids"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Cell 1" FontSize="48" Foreground="AliceBlue"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Cell 2" FontSize="48" Foreground="AliceBlue"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Cell 3" FontSize="48" Foreground="AliceBlue"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Cell 4" FontSize="48" Foreground="AliceBlue"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Cell 5" FontSize="48" Foreground="AliceBlue"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Cell 6" FontSize="48" Foreground="AliceBlue"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Cell 7" FontSize="48" Foreground="AliceBlue"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Cell 8" FontSize="48" Foreground="AliceBlue"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="Cell 9" FontSize="48" Foreground="AliceBlue"/>
+
+
+    </Grid>
+</Page>
+
